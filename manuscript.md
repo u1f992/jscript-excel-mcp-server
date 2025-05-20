@@ -284,8 +284,6 @@ var TOOLS = [
 
 ［Tools］に列挙されたツールを選択し、引数を入力して［Run Tool］をクリックすると、次のようなエラーが表示されます。
 
-![](run_failed.png)
-
 ```
 "MCP error -32601: METHOD_NOT_FOUND: {"jsonrpc": "2.0", "id": 2, "method": "tools/call", "params": {"_meta": {"progressToken": 2}, "name": "wscript_create_object", "arguments": {"progId": "Excel.Application"}}}"
 ```
@@ -381,5 +379,7 @@ switch (request.method) {
   }
 }
 ```
+
+試してみたところ、日本語は正しく送受信できないようです。文字コードの都合だったと記憶しています。
 
 ![](claude-excel.png)
