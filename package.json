@@ -1,0 +1,7 @@
+{
+    "name": "jscript-excel-mcp-server",
+    "type": "module",
+    "devDependencies": {
+        "prettier": "^3.5.3"
+    }
+}
